@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.1/dist/flowbite.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+  <!-- tailwinnd element -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="stylesheet" href="mmjee.css">
+  <style>
+    .debug {
+      outline: 1px red solid;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav
+      class=" relative w-full flex flex-wrap items-center justify-between bg-[#0d0632] p-1 text-gray-500 hover:text-gray-700 focus:text-gray-700 shadow-lg navbar navbar-expand-lg navbar-light ">
+      <div class="container-fluid w-full flex flex-wrap items-center justify-between px-6">
+        <button class="
+            navbar-toggler
+            text-gray-500
+            border-0
+            hover:shadow-none hover:no-underline
+            py-2
+            px-2.5
+            bg-transparent
+            focus:outline-none focus:ring-0 focus:shadow-none focus:no-underline
+          " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" class="w-6" role="img"
+            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+            <path fill="currentColor"
+              d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z">
+            </path>
+          </svg>
+        </button>
+        <div class="collapse navbar-collapse flex-grow items-center" id="navbarSupportedContent">
+          <a class="text-xl text-black" href="#">
+            <img height="150px" width="150px" src=" logo new.jpg " class="mr-5" alt="logo" />
+          </a>
+          <!-- Left links -->
+          <ul class="navbar-nav flex flex-col pl-0 md:ml-[500px] list-style-none mr-auto py-2">
+            <li class="nav-item px-2">
+              <a class="nav-link text-white font-bold active:text-blue-500 text-lg hover:text-purple-900 focus:text-gray-200 p-1"
+                href="#">Home</a>
+            </li>
+            <li class="nav-item pr-2">
+              <a class="nav-link text-white font-bold text-lg hover:text-purple-900 focus:text-gray-200 p-1"
+                href="#">About</a>
+            </li>
+            <li class="nav-item pr-2">
+              <a class="nav-link text-white font-bold text-lg hover:text-purple-900 focus:text-gray-200 p-1"
+                href="#">Pricing</a>
+            </li>
+            <li class="nav-item pr-2">
+              
+              <a class="nav-link text-white font-bold text-lg hover:text-purple-900 focus:text-blue-200 p-1"
+                href="#">Services</a>
+            </li>
+            <li class="nav-item pr-2">
+              
+              <a class="nav-link text-white font-bold text-lg hover:text-purple-900 focus:text-gray-200 p-1"
+                href="#">Contact</a>
+            </li>
+          </ul>
+          
+          <!-- Left links -->
+        </div>
+        <!-- Collapsible wrapper -->
+      </div>
+      
+    </nav>
+
+
+    <div class="hero min-h-[400px]  md:h-screen flex items-cen
+    ter flex-row">
+      <div class="flex flex-col px-10 mt-10">
+        <h2 class="text-black text-3xl p-2 text-slate-700 font-bold">Welcome</h2>
+        <h1 class="text-black text-5xl p-2 text-slate-700 font-bold">Digital product</h1>
+        <p class="text-black text-xl p-2">Ensuring the best
+          return on you bespoken SEO capain recuritment</p>
+        <button class="bg-slate-700 md:text-xl text-white p-2 mt-3 ml-3 max-w-[180px] rounded-md">Contact
+          today</button>
+      </div>
+    </div>
+
+  </header>
+
+
+  <div class="grid mb-8 rounded-lg border border-gray-200 shadow-sm dark:border-gray-700 md:mb-12 md:grid-cols-2">
+    <figure
+      class="flex flex-col justify-center items-center p-8 text-center bg-white rounded-t-lg border-b border-gray-200 md:rounded-t-none md:rounded-tl-lg md:border-r dark:bg-gray-800 dark:border-gray-700">
+      <blockquote class="mx-auto mb-4 max-w-2xl text-gray-500 lg:mb-8 dark:text-gray-400">
+        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Discover,Explore the product</h3>
+        <p class="my-4 font-light">Discover,Explore & understanding the product"</p>
+      </blockquote>
+      <figcaption class="flex justify-center items-center space-x-3">
+        <img class="w-12 h-12 rounded-full" src="pic5.jpg" alt="">
+        <div class="space-y-0.5 font-medium dark:text-white text-left">
+          <div>MuKhad</div>
+          <div class="text-sm font-light text-gray-500 dark:text-gray-400">Developer at Open AI</div>
+        </div>
+      </figcaption>
+    </figure>
+    <figure
+      class="flex flex-col justify-center items-center p-8 text-center bg-white rounded-tr-lg border-b border-gray-200 dark:bg-gray-800 dark:border-gray-700">
+      <blockquote class="mx-auto mb-4 max-w-2xl text-gray-500 lg:mb-8 dark:text-gray-400">
+        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Discover,Explore theproduct </h3>
+        <p class="my-4 font-light">Discover,Explore & understanding the product"</p>
+      </blockquote>
+      <figcaption class="flex justify-center items-center space-x-3">
+        <img class="w-12 h-12 rounded-full" src="pic2.jpg" alt="profile picture">
+        <div class="space-y-0.5 font-medium dark:text-white text-left">
+          <div>Dijah sagir</div>
+          <div class="text-sm font-light text-gray-500 dark:text-gray-400">Lead designer at Dropbox</div>
+        </div>
+      </figcaption>
+    </figure>
+    <figure
+      class="flex flex-col justify-center items-center p-8 text-center bg-white rounded-bl-lg border-b border-gray-200 md:border-b-0 md:border-r dark:bg-gray-800 dark:border-gray-700">
+      <blockquote class="mx-auto mb-4 max-w-2xl text-gray-500 lg:mb-8 dark:text-gray-400">
+        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Discover,Explore theproduct </h3>
+        <p class="my-4 font-light">Discover,Explore & understanding the product"</p>
+      </blockquote>
+      <figcaption class="flex justify-center items-center space-x-3">
+        <img class="w-12 h-12 rounded-full" src="pic4.jpg" alt="profile picture">
+        <div class="space-y-0.5 font-medium dark:text-white text-left">
+          <div>Marmijeesmaiiyali</div>
+          <div class="text-sm font-light text-gray-500 dark:text-gray-400">Software Engineer at Facebook</div>
+        </div>
+      </figcaption>
+    </figure>
+    <figure
+      class="flex flex-col justify-center items-center p-8 text-center bg-white rounded-b-lg border-gray-200 md:rounded-br-lg dark:bg-gray-800 dark:border-gray-700">
+      <blockquote class="mx-auto mb-4 max-w-2xl text-gray-500 lg:mb-8 dark:text-gray-400">
+        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Discover,Explore theproduct </h3>
+        <p class="my-4 font-light">Discover,Explore & understanding the product"</p>
+      </blockquote>
+      <figcaption class="flex justify-center items-center space-x-3">
+        <img class="w-12 h-12 rounded-full" src="pic3.jpg" alt="profile picture">
+        <div class="space-y-0.5 font-medium dark:text-white text-left">
+          <div>khadijah sagir</div>
+          <div class="text-sm font-light text-gray-500 dark:text-gray-400">CTO at Google</div>
+        </div>
+      </figcaption>
+    </figure>
+  </div>
+  <section class="flex w-full justify-center">
+    <div class="w-full max-w-6xl flex flex-col md:flex-row justify-between gap-4 px-10">
+      <div class="w-full md:w-1/2">
+        <h3 class="uppercase text-gray-600 font-semibold text-center ">WHY CHOOSE US</h3>
+        <h1 class="font-bold text-2xl text-purple-800 capitalize text-center">Boosts Your Website Traffic !</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde soluta autem, iste praesentium explicabo qui
+          earum at, officiis, nisi ipsa fugit. Hic quasi labore officiis, ut dese urunt autem nisi recusandae.</p>
+        <div class="py-3 flex justify-center">
+          <button class=" justify-center border-4 p-2 rounded-xl font-bold bg-purple-900 text-white">
+            <p>More about</p>
+          </button>
+        </div>
+      </div>
+      <div class="w-full md:w-1/2 gap-3 flex flex-col">
+
+        <!-- COP form ere -->
+        <div class="flex flex-col md:flex-row">
+          <div class="flex flex-col md:w-2/5 gap-2 items-center md:border-r p-2">
+            <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-purple-900">122 <sup
+                class="text-orange-500">+</sup></h1>
+            <P class="text-gray-600 text-sm font-bold">Happy Customer</P>
+          </div>
+          <p class="py-1 px-3">men and woman committed to protect you around the world</p>
+        </div>
+        <div class="flex flex-col md:flex-row">
+          <div class="flex flex-col md:w-2/5 gap-2 items-center md:border-r p-2">
+            <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-purple-900">100 <sup
+                class="text-orange-500">+</sup></h1>
+            <P class="text-gray-600 text-sm font-bold">Happy Customer</P>
+          </div>
+          <p class="py-1 px-3">men and woman committed to protect you around the world</p>
+        </div>
+        <div class="flex flex-col md:flex-row">
+          <div class="flex flex-col md:w-2/5 gap-2 items-center md:border-r p-2">
+            <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-purple-900">140 <sup
+                class="text-orange-500">+</sup></h1>
+            <P class="text-gray-600 text-sm font-bold">Happy Customer</P>
+          </div>
+          <p class="py-1 px-3">men and woman committed to protect you around the world</p>
+        </div>
+
+
+
+        <!-- to ere -->
+
+      </div>
+    </div>
+
+  </section>
+  <h1 class="uppercase text-gray-600 font-semibold text-center text-1xl mt-12">EXPERIENCE</h1>
+  <h1 style="font-family:Arial, Helvetica, sans-serif;"
+    class="font-bold text-2xl text-purple-800 capitalize text-center text-3xl mb-4">Pay for Qualified Traffic</h1>
+
+  <section class="flex w-full justify-center">
+    <div class="w-full max-w-6xl flex flex-col md:flex-row justify-between gap-4 md:gap-16">
+      <div class="w-full md:w-1/2 relative">
+        <div class="relative">
+          <img style="position: relative; opacity: 1; object-fit: cover; border-radius: 50%;" src="mmjpic.jpg" alt="">
+          <div
+            style="position: absolute; top: -0px; left: 0; width: 100%; height: 100px; margin-top: 16%; color: white; ">
+            <h3 class="text-2xl text-center">Expand Your</h3>
+            <h3 class="text-2xl text-center">Digital Presence</h3>
+            <p class="px-3 text-center"> your app is your tool for better communication with your followers<br> Get in
+              Touch <i class="fa-solid fa-arrow-right"></i></p>
+          </div>
+        </div>
+      </div>
+      <div class="w-full md:w-1/2 gap-3 flex flex-col">
+
+        <!-- COP form ere -->
+        <div class="flex">
+          <div class="flex flex-col w-2/5 gap-2 items-center p-2">
+            <p
+              class="flex items-center justify-center text-xl md:text-2xl lg:text-3xl font-bold text-gray-900 border-2 border-orange-600 rounded-full h-20 w-20">
+              77 <sup class="text-black">%</sup></p>
+          </div>
+          <div class="block">
+            <h2 class="text-orange-500 text-1xl font-bold ">Creative Approach </h2>
+            <p class="py-1 px-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quique</p>
+          </div>
+
+        </div>
+        <div class="flex">
+          <div class="flex flex-col w-2/5 gap-2 items-center  p-2">
+            <h1
+              class="flex items-center justify-center text-xl md:text-2xl lg:text-3xl font-bold text-gray-900 border-2 border-orange-600 rounded-full h-20 w-20">
+              55<sup class="text-black">%</sup></h1>
+
+          </div>
+          <div class="block">
+            <h2 class="text-orange-500 text-1xl font-bold ">Guaranteed Sucess</h2>
+            <p class="py-1 px-3">voluptas unde adipisci libero officiis mollitia labore fugit necessitatibus tenetur
+              dolores</p>
+          </div>
+        </div>
+        <div class="flex">
+          <div class="flex flex-col w-2/5 gap-2 items-center p-2">
+            <h1
+              class="flex items-center justify-center text-xl md:text-2xl lg:text-3xl font-bold text-gray-900 border-2 border-orange-600 rounded-full h-20 w-20">
+              88 <sup class="text-black">%</sup></h1>
+
+          </div>
+          <div class="block">
+            <h2 class="text-orange-500 text-1xl font-bold ">innovative programs </h2>
+            <p class="py-1 px-3">consectetur adipisicing eExplicabo nesciunt nam quis quae maiores ea enim perspiciatis
+              hic magnam?</p>
+          </div>
+        </div>
+        <!-- to ere -->
+
+      </div>
+    </div>
+  </section>
+  <!-- from section -->
+
+  <div class="grid md:grid-cols-2 gap-x-5 mt-20">
+
+    <div class="">
+      <div style="margin-left: 50px; margin-left: 100px;">
+        <h3 style="margin-left:10px ;">Experience</h3>
+        <h1 style="font-size: 28px; color:purple;margin-left: 10px; " class="font-bold">Pay For Qaulified Traffic</h1>
+      </div>
+
+
+      <div class="mx-5 space-y-2">
+        <input type="text" placeholder="Why We use it ?"
+          class="border border-gray-100 bg-gray-200 shadow-sm rounded py-1 px-3 w-full">
+        <input type="text" placeholder="Can We use it ?"
+          class="border border-gray-100 bg-gray-200 shadow-sm rounded py-1 px-3 w-full">
+        <input type="text" placeholder="Who we use it?"
+          class="border border-gray-100 bg-orange-600  text-white shadow-sm rounded py-1 px-3 w-full">
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque laborum deserunt excepturi perspiciatis
+          suscipit quisquam at, dolorem architecto neque eligendi! Qui earum esse ducimus repellat consectetur
+          perspiciatis temporibus ad repellendus.</p>
+        <input type="text" placeholder="What Three Solution ?"
+          class="border border-gray-100 bg-gray-200 shadow-sm rounded py-1 px-3 w-full">
+        <input type="text" placeholder="Do or Not ?"
+          class="border border-gray-100 bg-gray-200 shadow-sm rounded py-1 px-3 w-full">
+      </div>
+    </div>
+
+    <div class="relative">
+      <div class="relative w-full">
+        <img style="opacity: 1; object-fit: cover; border-radius: 50%;" src="mmjjee.webp" alt="">
+        <div
+          style="position: absolute; top: -0px; left: 0; width: 100%; height: 100px; margin-top: 16%; color: white; ">
+          <h3 class="text-2xl text-center font-bold">Have a project in</h3>
+          <h3 class="text-2xl text-center font-bold">Let's get to work</h3>
+
+          <p class="text-lg font-bold px-3 text-center">Find out how it works and ask any question you may have <br> Get
+            in Touch <i class="fa-solid fa-arrow-right"></i></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="mt-20">
+    <h1 class="uppercase text-gray-600 font-semibold text-center text-1xl mt-12">FEATURED PROJECT</h1>
+    <h1 style="font-family:Arial, Helvetica, sans-serif;"
+      class="font-bold text-2xl text-purple-800 capitalize text-center text-3xl mb-4">Our Case Studies</h1>
+
+    <div class="grid grid-cols-2  md:grid-cols-4 gap-4 mx-4 my-5 mt-10">
+      <div class="relative">
+        <img src="./mmjpic.jpg" alt="">
+        <div class="absolute bottom-0 text-white px-5 pb-5">
+          <p class="text-xl font-bold">SEO</p>
+          <p class="">Marketing</p>
+        </div>
+      </div>
+      <div class="relative">
+        <img src="./mmjjee.webp" alt="">
+        <div class="absolute bottom-0 text-white px-5 pb-5">
+          <p class="text-xl font-bold">SEO</p>
+          <p class="">Marketing</p>
+        </div>
+      </div>
+      <div class="relative">
+        <img src="./pic.jpg" alt="">
+        <div class="absolute bottom-0 text-white px-5 pb-5">
+          <p class="text-xl font-bold">SEO</p>
+          <p class="">Marketing</p>
+        </div>
+      </div>
+      <div class="relative">
+        <img src="./pic 7.webp" alt="">
+        <div class="absolute bottom-0 text-white px-5 pb-5">
+          <p class="text-xl font-bold">SEO</p>
+          <p class="">Marketing</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="my-10 mt-20">
+
+    <h1 class="uppercase text-gray-600 font-semibold text-center text-1xl mt-12">PRICING PLAN</h1>
+    <h1 style="font-family:Arial, Helvetica, sans-serif;"
+      class="font-bold text-2xl text-purple-800 capitalize text-center text-3xl mb-4">The Best Solution for Our Clients
+    </h1>
+
+
+    <div class="grid grid-cols-1 gap-x-20 mx-10">
+      <div class="text-center py-5 px-4 space-y-3 rounded-lg shadow-lg">
+        <p class="text-3xl text-purple-800">Premium plan <br> <span class="text-orange-600">$2450</span></p>
+        <div class="space-y-3">
+          <p>SEO Audit</p>
+          <p>SEO Management</p>
+          <p>SEO Copywriting</p>
+          <p>Link Building</p>
+          <p>Site Migration</p>
+        </div>
+        <div class="flex justify-center items-center">
+          <button class="bg-orange-600 text-white py-2 px-7 rounded">Get Started</button>
+        </div>
+      </div>
+      <div class="text-center py-5 px-4 space-y-3 rounded-lg shadow-lg bg-purple-900 text-white">
+        <p class="text-3xl text-white"> Standard Plan<br>$2450</p>
+        <div class="space-y-3">
+          <p>SEO Audit</p>
+          <p>SEO Management</p>
+          <p>SEO Copywriting</p>
+          <p>Link Building</p>
+          <p>Site Migration</p>
+        </div>
+        <div class="flex justify-center items-center">
+          <button class="bg-orange-600 text-white py-2 px-7 rounded">Get Started</button>
+        </div>
+      </div>
+      <div class="text-center py-5 px-4 space-y-3 rounded-lg shadow-lg">
+        <p class="text-3xl text-purple-800">Premium plan <br> <span class="text-orange-600">$2450</span></p>
+        <div class="space-y-3">
+          <p>SEO Audit</p>
+          <p>SEO Management</p>
+          <p>SEO Copywriting</p>
+          <p>Link Building</p>
+          <p>Site Migration</p>
+        </div>
+        <div class="flex justify-center items-center">
+          <button class="bg-orange-600 text-white py-2 px-7 rounded">Get Started</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="mt-20">
+    <h1 class="uppercase text-gray-600 font-bold text-center text-1xl mt-12 text-purple-900 capitalize">Read Our Lates
+      News<br><i class="fa-solid fa-arrow-right"></i></p>
+    </h1>
+
+
+    <div class="grid md:grid-cols-3 gap-x-10  gap-y-10  mx-4 my-5 mt-10 border-radius-4">
+
+      <div class="relative flex-row grid-cols-1">
+        <img src="mk7.jpg" alt="" class="rounded-lg">
+        <div class="px-5 pb">
+          <p class="">may 16 2022</p>
+          <p class="text-xl font-bold">How to Increase Your ROI Through<br>Scientific SEM?</p>
+        </div>
+      </div>
+      <div class="relative flex-row grid-cols-3">
+        <img src="mk6.jpg" alt="" class="rounded-lg">
+        <div class="px-5 pb-5">
+          <p class="">may 16 2022</p>
+          <p class="text-xl font-bold">How to Increase Your ROI Through<br>Scientific SEM?</p>
+        </div>
+      </div>
+      <div class="relative flex-row grid-cols-3">
+        <img src="mk9.jpg" alt="" class="rounded-lg">
+        <div class="px-5 pb-5">
+          <p class="">may 16 2022</p>
+          <p class="text-xl font-bold">How to Increase Your ROI Through<br>Scientific SEM?</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <section class="contact py-20">
+    <div class="mx-10 md:mx-80 p-5 md:p-10 bg-orange-600 rounded-lg">
+      <p class="text-center capitalize text-3xl font-bold mb-10 text-white">Get in Touch with us!</p>
+      <form class="space-y-5">
+        <div class="space-y-3">
+          <input type=" text" class="bg-gray-200 w-full py-2 rounded px-3 focus:outline-gray-300" placeholder="Name">
+        </div>
+        <div class="space-y-3">
+          <input type="email" class="bg-gray-200 w-full py-2 rounded px-3" placeholder="Email">
+        </div>
+        <div class="space-y-3">
+          <input type="tel" class="bg-gray-200 w-full py-2 rounded px-3" placeholder="Mobile Number">
+        </div>
+        <div class="space-y-3">
+          <input type="text" class="bg-gray-200 w-full py-2 rounded px-3" placeholder="Website">
+        </div>
+        <div class="flex justify-center"><Button
+            class="text-white bg-blue-600 border border-blue-600 hover:border-white hover:text-blue-600 hover:bg-white py-2 px-10 rounded shadow shadow-white">Submit</Button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <footer class="text-center text-white px-10" style="background-color: #f1f1f1;">
+    <div class="text-center text-black pt-10">
+      <h4 class="text-lg font-bold">About us</h4>
+      <p>we focus on the need of small to middle market busnesses to imrove and grow ther return.so that your site
+        will withstand the test of tme.we care about your busness.whch why we work wth you.</p>
+    </div>
+    <div class="container pt-9">
+      <div class="flex justify-center mb-9">
+        <a href="#!" class="mr-9 text-orange-800">
+          <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f"
+            class="svg-inline--fa fa-facebook-f w-2.5" role="img" xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 320 512">
+            <path fill="currentColor"
+              d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z">
+            </path>
+          </svg>
+        </a>
+        <a href="#!" class="mr-9 text-orange-800">
+          <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter"
+            class="svg-inline--fa fa-twitter w-4" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+            <path fill="currentColor"
+              d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z">
+            </path>
+          </svg>
+        </a>
+        <a href="Marmijeesmaiiyali@gmail.com" class="mr-9 text-orange-800">
+          <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="google"
+            class="svg-inline--fa fa-google w-3.5" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 488 512">
+            <path fill="currentColor"
+              d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C258.5 52.6 94.3 116.6 94.3 256c0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4z">
+            </path>
+          </svg>
+        </a>
+        <a href="#!" class="mr-9 text-orange-800">
+          <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram"
+            class="svg-inline--fa fa-instagram w-3.5" role="img" xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 448 512">
+            <path fill="currentColor"
+              d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+            </path>
+          </svg>
+        </a>
+        <a href="#!" class="mr-9 text-orange-800">
+          <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin-in"
+            class="svg-inline--fa fa-linkedin-in w-3.5" role="img" xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 448 512">
+            <path fill="currentColor"
+              d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z">
+            </path>
+          </svg>
+        </a>
+        <a href="#!" class="text-orange-800">
+          <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github"
+            class="svg-inline--fa fa-github w-4" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+            <path fill="currentColor"
+             d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z">
+            </path>
+          </svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="text-center text-gray-700 p-4" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2021 Copyright:
+      <a class="text-gray-800" href="https://tailwind-elements.com/">meera com Elements</a>
+    </div>
+  </footer>
+
+</body>
+<script src="https://unpkg.com/flowbite@1.5.1/dist/flowbite.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        fontFamily: {
+          sans: ['Inter', 'sans-serif'],
+        },
+      }
+    }
+  }
+</script>
+
+</html>
